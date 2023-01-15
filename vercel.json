@@ -1,0 +1,6 @@
+{
+    "version":2,
+    "name":"login-page-and-registration-page",
+    "builds" :[{"src" :"src/app.js" , "use":"@vercel/node"}],
+    "route" : [{"src" :"/(.*)","dest":"/server.js"}]
+}
